@@ -72,7 +72,9 @@ label {
   margin: 10px 0;
 }
 input[type="text"],
-input[type="number"] {
+input[type="number"],
+select,
+option {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
@@ -80,6 +82,7 @@ input[type="number"] {
   padding: 10px;
   width: 100%;
 }
+
 .btn {
   cursor: pointer;
   background-color: #001d3d;
